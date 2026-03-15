@@ -42,7 +42,9 @@ LLM (GPT)
       ↓
 Answer Generation
 
+
 Instead of sending the whole document to the model, the system retrieves only the most relevant pieces of information, making responses more accurate and efficient.
+
 
 🛠️ Tech Stack
 Component	Technology
@@ -53,6 +55,7 @@ Vector Database	Chroma
 Embeddings	OpenAI Embeddings
 Document Loader	PyPDF
 Environment	Python venv
+
 📂 Project Structure
 rag-poc
 │
@@ -69,10 +72,14 @@ rag-poc
 │
 ├── requirements.txt
 └── README.md
-⚙️ Setup Instructions
+
+
+⚙️ Setup Instructions : 
+
 1️⃣ Clone the Repository
 git clone https://github.com/your-username/rag-document-assistant.git
 cd rag-document-assistant
+
 2️⃣ Create Virtual Environment
 python -m venv venv
 
