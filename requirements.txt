@@ -5,3 +5,7 @@ chromadb
 pypdf
 python-dotenv
 tiktoken
+gradio==4.44.0
+pydantic==2.10.6
+huggingface_hub==0.23.0 
+ollama
